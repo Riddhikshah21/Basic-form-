@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Bootstrap</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+</head>
+<body>
+	<div class="container">
+	<h1>Welcome!!</h1>
+	</div>
+
+	<div class="container">
+		<form>
+			<div class="form-group">
+				<label for="email_id">Email-address</label>
+				<input type="email" class="form-control" id="email_id" placeholder="Enter Email-Id"><br>
+
+				<label for="pw">Password</label>
+				<input type="Password" class="form-control" id="pw" placeholder="Enter Password:"><br>
+
+				<label for="files">Choose a file</label>
+				<small class="form-text text-muted">You can choose any file you want</small><br>
+				<input type="file" class="form-control-file" id="files" placeholder="Select a file"><br>
+				
+
+				<label for="comment">Add suggestions:</label>
+				<input type="text-area" class="form-control" id="comment" placeholder="Type something..."><br>
+
+				<fieldset class="form-group">
+				<legend>Radio Button</legend>
+				<h3><label>Select Gender</label></h3>
+				<div>
+					<label class="form-check-label"></label>
+					<input type="Radio" class="form-check-input" name="opt">Male
+
+				</div><br>
+
+				
+				<div>
+					<label class="form-check-label"></label>
+					<input type="Radio" class="form-check-input" name="opt">Female
+					
+				</div><br>
+				</fieldset>
+
+				<fieldset class="form-check">
+					<div>
+					<input type="checkbox" id="check" class="form-check-input">
+					<label for="check" class="form-check-label">Check me out</label>	
+					</div>
+				</fieldset><br>
+
+				<button class="btn btn-success btn-lg">Submit</button><br>
+
+			</div>
+		</form>
+
+	</div>
+</body>
+</html>
